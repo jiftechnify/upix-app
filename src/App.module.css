@@ -1,0 +1,25 @@
+ul.uploadedImageList {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  gap: 1.5rem;
+}
+
+li.uploadedImageItem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  list-style-type: none;
+}
+
+.uploadedImageItem * {
+  margin: 0;
+}
+
+.uploadedImageItem p {
+  margin: 0.125rem 0;
+}
+
+.btnCopyUrl {
+  width: 8rem;
+}
